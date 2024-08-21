@@ -1,9 +1,25 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Carousel from '../lib/Carousel.svelte';
+	import Map from '../lib/Map.svelte';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+	import Icon from '@iconify/svelte';
+	import {
+		Footer,
+		FooterCopyright,
+		FooterLinkGroup,
+		FooterLink,
+		FooterBrand,
+		FooterIcon
+	} from 'flowbite-svelte';
+	import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
 
 	let categories: any[] = [];
+	let apiKey = 'AIzaSyCY57H96Hsg6kRvjAJz6oe7j6mOpxQoARs';
+	let name = '';
+	let email = '';
+	let phoneNumber = '';
+	let message = '';
 
 	onMount(async () => {
 		const res = await fetch('/furniture.json');
@@ -124,23 +140,9 @@
 				</div>
 			</div>
 		</section>
-		<!-- 
-		<section id="categories" class="py-16">
-			<div class="container mx-auto">
-				<h2 class="text-3xl font-bold text-blue-500 text-center mb-8">Categories</h2>
-				<ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-					{#each furniture as item}
-						<li class="p-6 border rounded-lg shadow hover:shadow-lg transition-shadow">
-							<h3 class="text-xl font-bold text-gray-800">{item.name}</h3>
-							<p class="text-gray-600">${item.price}</p>
-						</li>
-					{/each}
-				</ul>
-			</div>
-		</section> -->
 
 		<section id="categories" class="py-16">
-			<div class="container mx-auto">
+			<div class="container mx-auto p-4">
 				<h2 class="text-3xl md:tetx-5xl font-bold text-mainGreen text-center mb-8">Categories</h2>
 				<ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 					{#each categories as category}
@@ -163,42 +165,136 @@
 			</div>
 		</section>
 
-		<section id="contact-us" class="py-16">
-			<div class="container mx-auto">
-				<h2 class="text-3xl font-bold text-blue-500 text-center mb-8">Contact Us</h2>
-				<form class="max-w-lg mx-auto space-y-4">
+		<section
+			id="contact-us"
+			class="py-16 bg-gray-200 flex flex-col md:flex-row mx-auto items-center justify-center gap-20"
+		>
+			<div class="p-4">
+				<h2 class="text-3xl md:text-5xl font-bold text-mainGreen text-center mb-8">Contact Us</h2>
+				<form
+					class="max-w-lg mx-auto space-y-4"
+					target="_blank"
+					action="https://formsubmit.co/lazzohchainz@gmail.com"
+					method="POST"
+				>
+					<input type="hidden" name="_template" value="box" />
 					<input
 						type="text"
 						placeholder="Name"
-						class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+						name="Name"
+						bind:value={name}
+						class="w-full px-4 py-2 border rounded focus:outline-none focus:outline-mainGreen focus:border-none focus:ring-transparent"
+					/>
+					<input
+						type="text"
+						placeholder="Phone"
+						name="Phone Number"
+						bind:value={phoneNumber}
+						class="w-full px-4 py-2 border rounded focus:outline-none focus:outline-mainGreen focus:border-none focus:ring-transparent"
 					/>
 					<input
 						type="email"
 						placeholder="Email"
-						class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+						name="Email Address"
+						bind:value={email}
+						class="w-full px-4 py-2 border rounded focus:outline-none focus:outline-mainGreen focus:border-none focus:ring-transparent"
 					/>
 					<textarea
 						placeholder="Message"
-						class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+						name="Message"
+						bind:value={message}
+						class="w-full px-4 py-2 border rounded focus:outline-none focus:outline-mainGreen focus:border-none focus:ring-transparent"
 						rows="5"
 					></textarea>
 					<button
 						type="submit"
-						class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-600"
+						class="w-full px-4 py-2 font-bold text-white bg-mainGreen rounded hover:bg-mainGreen"
 					>
 						Send Message
 					</button>
 				</form>
 			</div>
+
+			<div class="w-full md:w-[40%] p-4 h-[400px]">
+				<Map {apiKey} coordinates="0.5474355589369159, 35.30725327936269" />
+			</div>
 		</section>
 
-		<footer id="footer" class="py-8 bg-gray-800 text-gray-100">
-			<div class="container mx-auto text-center">
-				<p>&copy; {new Date().getFullYear()} Our Store. All rights reserved.</p>
-				<p>
-					<a href="#home" class="text-blue-400 hover:underline">Back to Top</a>
-				</p>
+		<Footer footerType="socialmedia" id="footer" class="bg-gray-800">
+			<div class="mx-auto md:w-3/4">
+				<div class="md:flex md:justify-between py-10">
+					<div class="mb-6 md:mb-0 gap-10">
+						<p class="font-bold text-2xl md:text-4xl text-mainGreen text-center">
+							Jubilee Furnitures
+						</p>
+
+						<div class="hidden md:flex mt-10 gap-4">
+							<FooterIcon href="/">
+								<FacebookSolid
+									class="w-10 h-10 text-gray-100  hover:text-mainGreen dark:hover:text-mainGreen"
+								/>
+							</FooterIcon>
+
+							<FooterIcon href="/">
+								<TwitterSolid
+									class="w-10 h-10 text-gray-100 hover:text-mainGreen dark:hover:text-mainGreen"
+								/>
+							</FooterIcon>
+						</div>
+
+						<div class="hidden md:flex mt-10 gap-4 flex-col text-gray-100">
+							<div class="flex flex-row gap-2 mt-2">
+								<Icon icon="clarity:email-solid" width="30" height="30" style="color: white" />
+								<p>jubileefurniture@gmail.com</p>
+							</div>
+
+							<div class="flex flex-row gap-2 mt-2">
+								<Icon icon="ic:baseline-phone" width="30" height="30" style="color: white" />
+								<p class="">+254 70000000</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid grid-cols-2 gaap-20 sm:gap-6 mt-10">
+						<div class="md:px-10">
+							<h2 class="mb-6 text-sm md:text-xl font-semibold text-mainGreen uppercase">
+								Resources
+							</h2>
+							<FooterLinkGroup>
+								<FooterLink liClass="mb-4 text-gray-100 hover:text-mainGreen " href="/shop"
+									>Shop</FooterLink
+								>
+							</FooterLinkGroup>
+						</div>
+
+						<div class="md:px-10">
+							<h2 class="mb-6 text-sm md:text-xl font-semibold uppercase text-mainGreen">
+								Follow us
+							</h2>
+							<FooterLinkGroup>
+								<FooterLink liClass="mb-4 text-gray-100 hover:text-mainGreen " href="/"
+									>Facebook</FooterLink
+								>
+								<FooterLink liClass="mb-4 text-gray-100 hover:text-mainGreen " href="/"
+									>Twitter</FooterLink
+								>
+								<FooterLink liClass="mb-4 text-gray-100 hover:text-mainGreen " href="/"
+									>Instagram</FooterLink
+								>
+							</FooterLinkGroup>
+						</div>
+					</div>
+				</div>
+				<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+				<div class="flex items-center justify-center text-center">
+					<p class="text-gray-100">
+						&copy; {new Date().getFullYear()} Jubilee Furnitures. All rights reserved.
+
+						<span class="text-mainGreen font-bold">
+							<a href="https://lazarusmugo.github.io"> Designed by Lazarus Mugo</a>
+						</span>
+					</p>
+				</div>
 			</div>
-		</footer>
+		</Footer>
 	</div>
 </div>
