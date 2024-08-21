@@ -15,7 +15,7 @@
 	import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
 
 	let categories: any[] = [];
-	let apiKey = 'AIzaSyCY57H96Hsg6kRvjAJz6oe7j6mOpxQoARs';
+	let apiKey = import.meta.env.GOOGLE_API_KEY;
 	let name = '';
 	let email = '';
 	let phoneNumber = '';
