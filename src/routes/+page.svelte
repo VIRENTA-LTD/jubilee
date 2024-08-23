@@ -2,7 +2,9 @@
 	import { onMount } from 'svelte';
 	import Carousel from '../lib/Carousel.svelte';
 	import Map from '../lib/Map.svelte';
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Input } from 'flowbite-svelte';
+	import { Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
+	import { ChevronDownOutline, ChevronRightOutline } from 'flowbite-svelte-icons';
 	import Icon from '@iconify/svelte';
 	import {
 		Footer,
@@ -13,9 +15,11 @@
 		FooterIcon
 	} from 'flowbite-svelte';
 	import { FacebookSolid, GithubSolid, DiscordSolid, TwitterSolid } from 'flowbite-svelte-icons';
+	import { goto } from '$app/navigation';
 
 	let categories: any[] = [];
 	let apiKey = import.meta.env.GOOGLE_API_KEY;
+
 	let name = '';
 	let email = '';
 	let phoneNumber = '';
@@ -51,8 +55,11 @@
 		}));
 	});
 
-	function navigateToShop(category: string | number | boolean) {
-		window.location.href = `/shop?category=${encodeURIComponent(category)}`;
+	function navigateToShop(category: string | number | boolean, subcategory: string | null = null) {
+		const path = subcategory
+			? `/shop?category=${encodeURIComponent(category)}&subcategory=${encodeURIComponent(subcategory)}`
+			: `/shop?category=${encodeURIComponent(category)}`;
+		window.location.href = path;
 	}
 
 	let slides = [
@@ -96,15 +103,73 @@
 				>Jubilee Furnitures</span
 			>
 		</NavBrand>
-		<NavHamburger />
-		<NavUl>
-			<NavLi href="#home" active={true}>Home</NavLi>
-			<NavLi href="#about">About Us</NavLi>
-			<NavLi href="#categories">Categories</NavLi>
-			<NavLi href="#testimonials">Testimonials</NavLi>
-			<NavLi href="#contact-us">Contact Us</NavLi>
-			<NavLi href="/admin">
-				<button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"> Login </button>
+		<div class="flex md:order-2">
+			<Button size="sm" class="hidden md:flex bg-mainGreen py-3 px-8 font-bold text-lg"
+				>Login</Button
+			>
+			<NavHamburger />
+		</div>
+		<NavUl class="order-1">
+			<NavLi
+				href="#home"
+				activeClass="text-mainGreen  text-2xl"
+				nonActiveClass="text-gray-700 hover:text-mainGreen  md:text-lg text-md">Home</NavLi
+			>
+			<NavLi
+				href="#about-us"
+				activeClass="text-mainGreen  text-2xl"
+				nonActiveClass="text-gray-700 hover:text-mainGreen md:text-lg text-md">About Us</NavLi
+			>
+
+			<NavLi
+				href="#categories"
+				activeClass="text-mainGreen  text-2xl"
+				nonActiveClass="text-gray-700 hover:text-mainGreen md:text-lg text-md">Categories</NavLi
+			>
+
+			<NavLi
+				class="relative cursor-pointer"
+				activeClass="text-mainGreen text-2xl"
+				nonActiveClass="text-gray-700 hover:text-mainGreen md:text-lg text-md"
+			>
+				Furniture <ChevronDownOutline class="w-6 h-6 ms-2 text-mainGreen inline" />
+				<Dropdown class="absolute left-0 mt-2 w-48 bg-white shadow-lg">
+					{#each categories as category}
+						<DropdownItem class="flex items-center justify-between">
+							{category.name}
+							<ChevronRightOutline class="w-4 h-4 ms-2" />
+							<Dropdown
+								placement="right-start"
+								class=" absolute left-full top-0 mt-2 w-48 bg-white shadow-lg"
+							>
+								{#each category.subcategories as subcategory}
+									<DropdownItem on:click={() => navigateToShop(category.name, subcategory.name)}>
+										{subcategory.name}
+									</DropdownItem>
+								{/each}
+							</Dropdown>
+						</DropdownItem>
+					{/each}
+				</Dropdown>
+			</NavLi>
+
+			<NavLi
+				href="/shop"
+				activeClass="text-mainGreen  text-2xl"
+				nonActiveClass="text-gray-700 hover:text-mainGreen  md:text-lg text-md">Shop</NavLi
+			>
+			<NavLi
+				href="#contact-us"
+				activeClass="text-mainGreen text-2xl"
+				nonActiveClass="text-gray-700 hover:text-mainGreen  md:text-lg text-md">Contact Us</NavLi
+			>
+
+			<NavLi
+				href="/admin"
+				class="flex md:hidden"
+				nonActiveClass="nav-item nav-item-hover-focus hover:text-mainGreen focus:text-mainGreen"
+			>
+				<button class="bg-mainGreen text-white py-2 px-4 rounded hover:bg-gray-800">Login</button>
 			</NavLi>
 		</NavUl>
 	</Navbar>
@@ -242,7 +307,7 @@
 							</FooterIcon>
 						</div>
 
-						<div class="hidden md:flex mt-10 gap-4 flex-col text-gray-100">
+						<div class="items-center flex md:items-start mt-10 gap-4 flex-col text-gray-100">
 							<div class="flex flex-row gap-2 mt-2">
 								<Icon icon="clarity:email-solid" width="30" height="30" style="color: white" />
 								<p>jubileefurniture@gmail.com</p>
@@ -253,8 +318,9 @@
 								<p class="">+254 70000000</p>
 							</div>
 						</div>
+						<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 md:hidden" />
 					</div>
-					<div class="grid grid-cols-2 gaap-20 sm:gap-6 mt-10">
+					<div class="grid grid-cols-2 gap-20 sm:gap-6 mt-10">
 						<div class="md:px-10">
 							<h2 class="mb-6 text-sm md:text-xl font-semibold text-mainGreen uppercase">
 								Resources
@@ -298,3 +364,39 @@
 		</Footer>
 	</div>
 </div>
+
+<style>
+	.nav-item {
+		position: relative;
+		display: inline-block;
+	}
+
+	.nav-item .dropdown-content {
+		display: none;
+		position: absolute;
+		left: 0;
+		background-color: white;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.nav-item:hover .dropdown-content {
+		display: block;
+	}
+
+	.nav-item .dropdown-content .dropdown-item:hover .sub-dropdown-content {
+		display: block;
+	}
+
+	.sub-dropdown-content {
+		display: none;
+		position: absolute;
+		left: 100%;
+		top: 0;
+		background-color: white;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+</style>

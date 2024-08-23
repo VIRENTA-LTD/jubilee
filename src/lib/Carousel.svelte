@@ -1,4 +1,5 @@
 <script>
+	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 
 	/**
@@ -31,6 +32,13 @@
 						{slide.title}
 					</h3>
 					<p class=" text-lg w-3/4">{slide.description}</p>
+
+					<button
+						class="bg-mainGreen rounded-full text-gray-100 font-extrabold mt-12 px-8 py-4 hover:bg-gray-800"
+						on:click={() => goto('/shop')}
+					>
+						View Shop
+					</button>
 				</div>
 				<div class="md:w-[30%] p-4">
 					<img src={slide.image} alt={slide.title} class=" rounded-lg" />
