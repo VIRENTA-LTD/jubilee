@@ -4,8 +4,8 @@ import flowbitePlugin from 'flowbite/plugin';
 export default {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
-
-		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
+		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}',
+		 './node_modules/flowbite-svelte-icons/**/*.{html,js,svelte,ts}'
 	],
 	darkMode: 'selector',
 	theme: {
@@ -23,7 +23,11 @@ export default {
 					800: '#CC4522',
 					900: '#A5371B'
 				},
-				mainGreen: '#14C878'
+				mainGreen: '#14C878',
+				deepBlue: '#35736E',
+				mainOrange: '#FB923C',
+				mainGold: '#B88E2F',
+				mainGray: '#E5E5E5'
 			},
 			fontFamily: {
 				poppinsFont: ['Poppins', 'sans-serif']

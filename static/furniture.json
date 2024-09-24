@@ -1,69 +1,115 @@
 [
 	{
-		"category": "Seating",
-		"name": "Seating",
-		"description": "Find comfortable and stylish seating options.",
-		"image": "/categories/seating.jpeg",
+		"category": "Living Room",
+		"name": "Living Room",
+		"description": "Discover modern and traditional living room furniture.",
+		"image": "/shop/living/living.jpg",
 		"subcategories": [
 			{
-				"name": "Chair",
+				"name": "Recliners",
 				"items": [
 					{
-						"name": "Elegant Armchair",
-						"price": "KShs 34,999.00",
-						"description": "A stylish and comfortable armchair that complements any living space.",
-						"image": "/furniture/armchair.jpeg",
-						"dimensions": {
-							"width": "32 in",
-							"height": "35 in",
-							"depth": "30 in"
-						},
-						"material": "Leather and wood",
-						"color": "Brown"
-					},
-					{
-						"name": "Modern Recliner",
-						"price": "KShs 55,999.00",
-						"description": "A sleek, modern recliner with adjustable settings for ultimate comfort.",
-						"image": "/furniture/recliner.jpeg",
+						"name": "Luxury Recliner",
+						"price": "KES 55,999.00",
+						"description": "A comfortable luxury recliner with sleek leather finish.",
+						"image": "/shop/living/recliners/1.jpg",
 						"dimensions": {
 							"width": "34 in",
 							"height": "40 in",
 							"depth": "36 in"
 						},
-						"material": "Fabric and metal",
-						"color": "Gray"
+						"material": "Leather",
+						"color": "Black"
 					}
 				]
 			},
 			{
-				"name": "Sofa",
+				"name": "Sofas",
 				"items": [
 					{
-						"name": "Three-Seater Sofa",
-						"price": "KShs 111,999.00",
-						"description": "A spacious three-seater sofa with plush cushions and a durable frame.",
-						"image": "/furniture/3seater.jpeg",
+						"name": "Classic Sofa",
+						"price": "KES 111,999.00",
+						"description": "A three-seater classic sofa with plush cushions.",
+						"image": "/shop/living/sofas/1.jpg",
 						"dimensions": {
 							"width": "84 in",
 							"height": "34 in",
 							"depth": "36 in"
 						},
-						"material": "Fabric and wood",
+						"material": "Fabric",
 						"color": "Navy Blue"
-					},
+					}
+				]
+			},
+			{
+				"name": "Ottomans",
+				"items": [
 					{
-						"name": "Sectional Sofa",
-						"price": "KShs 167,999.00",
-						"description": "A large sectional sofa that provides ample seating for family and guests.",
-						"image": "/furniture/sectional.jpeg",
+						"name": "Modern Ottoman",
+						"price": "KES 34,999.00",
+						"description": "A modern ottoman with a soft top and sturdy wooden legs.",
+						"image": "/shop/living/ottomans/1.jpg",
+						"dimensions": {
+							"width": "32 in",
+							"height": "18 in",
+							"depth": "32 in"
+						},
+						"material": "Fabric",
+						"color": "Gray"
+					}
+				]
+			},
+			{
+				"name": "Loveseats",
+				"items": [
+					{
+						"name": "Cozy Loveseat",
+						"price": "KES 79,999.00",
+						"description": "A cozy loveseat perfect for two.",
+						"image": "/shop/living/loveseats/1.jpg",
+						"dimensions": {
+							"width": "60 in",
+							"height": "36 in",
+							"depth": "36 in"
+						},
+						"material": "Fabric",
+						"color": "Beige"
+					}
+				]
+			},
+			{
+				"name": "Sectional Sofas",
+				"items": [
+					{
+						"name": "Spacious Sectional Sofa",
+						"price": "KES 167,999.00",
+						"description": "A large sectional sofa that provides ample seating.",
+						"image": "/shop/living/sectional-sofas/1.jpg",
 						"dimensions": {
 							"width": "120 in",
 							"height": "34 in",
 							"depth": "60 in"
 						},
-						"material": "Leather and wood",
+						"material": "Leather",
 						"color": "Cream"
+					}
+				]
+			},
+			{
+				"name": "TV Stands",
+				"items": [
+					{
+						"name": "Elegant TV Stand",
+						"price": "KES 39,999.00",
+						"description": "A stylish TV stand with storage cabinets.",
+						"image": "/shop/living/tv-stands/1.jpg",
+						"dimensions": {
+							"width": "72 in",
+							"height": "24 in",
+							"depth": "18 in"
+						},
+						"material": "Wood",
+						"color": "Dark Walnut"
 					}
 				]
 			}
@@ -73,134 +119,100 @@
 		"category": "Tables",
 		"name": "Tables",
 		"description": "Browse our range of tables for every room.",
-		"image": "/categories/tables.jpeg",
+		"image": "/shop/tables/office.jpeg",
 		"subcategories": [
-			{
-				"name": "Dining Tables",
-				"items": [
-					{
-						"name": "Glass Top Dining Table",
-						"price": "KShs 83,999.00",
-						"description": "A contemporary dining table with a tempered glass top and metal legs.",
-						"image": "/furniture/glasstop.jpeg",
-						"dimensions": {
-							"width": "72 in",
-							"height": "30 in",
-							"depth": "36 in"
-						},
-						"material": "Glass and metal",
-						"color": "Black"
-					},
-					{
-						"name": "Wooden Farmhouse Table",
-						"price": "KShs 104,999.00",
-						"description": "A rustic farmhouse table made from reclaimed wood, perfect for family meals.",
-						"image": "/images/furniture/tables/dining/farmhouse.png",
-						"dimensions": {
-							"width": "84 in",
-							"height": "30 in",
-							"depth": "40 in"
-						},
-						"material": "Reclaimed wood",
-						"color": "Natural Wood"
-					}
-				]
-			},
 			{
 				"name": "Coffee Tables",
 				"items": [
 					{
 						"name": "Round Coffee Table",
-						"price": "KShs 27,999.00",
-						"description": "A round coffee table with a marble top and gold metal base.",
-						"image": "/images/furniture/tables/coffee/round-marble.png",
+						"price": "KES 27,999.00",
+						"description": "A round coffee table with a marble top.",
+						"image": "/shop/tables/coffee-tables/1.jpg",
 						"dimensions": {
 							"width": "36 in",
 							"height": "18 in",
 							"depth": "36 in"
 						},
-						"material": "Marble and metal",
-						"color": "White and Gold"
-					},
+						"material": "Marble",
+						"color": "White"
+					}
+				]
+			},
+			{
+				"name": "Office Desks",
+				"items": [
 					{
-						"name": "Lift-Top Coffee Table",
-						"price": "KShs 34,999.00",
-						"description": "A practical lift-top coffee table with hidden storage.",
-						"image": "/images/furniture/tables/coffee/lift-top.png",
+						"name": "Executive Office Desk",
+						"price": "KES 74,999.00",
+						"description": "A large executive desk with a sleek wood finish.",
+						"image": "/shop/tables/office-desks/1.jpg",
 						"dimensions": {
-							"width": "48 in",
-							"height": "18 in",
-							"depth": "24 in"
+							"width": "72 in",
+							"height": "30 in",
+							"depth": "36 in"
 						},
-						"material": "Wood and metal",
-						"color": "Espresso"
+						"material": "Wood",
+						"color": "Mahogany"
 					}
 				]
 			}
 		]
 	},
 	{
-		"category": "Storage",
-		"name": "Storage",
-		"description": "Organize your space with our storage solutions.",
-		"image": "/categories/storage.jpeg",
+		"category": "Dining Sets",
+		"name": "Dining Sets",
+		"description": "Complete your dining room with our sets.",
+		"image": "/shop/dining/dining.jpg",
 		"subcategories": [
 			{
-				"name": "Dressers",
+				"name": "Dining Room Tables",
 				"items": [
 					{
-						"name": "Six-Drawer Dresser",
-						"price": "KShs 69,999.00",
-						"description": "A spacious six-drawer dresser with a classic design.",
-						"image": "/images/furniture/storage/dressers/six-drawer.png",
+						"name": "Contemporary Dining Table",
+						"price": "KES 83,999.00",
+						"description": "A modern dining table with a tempered glass top.",
+						"image": "/shop/dining/dining-room-tables/1.jpg",
 						"dimensions": {
-							"width": "60 in",
-							"height": "36 in",
-							"depth": "18 in"
+							"width": "72 in",
+							"height": "30 in",
+							"depth": "36 in"
 						},
-						"material": "Wood",
-						"color": "White"
-					},
-					{
-						"name": "Tallboy Dresser",
-						"price": "KShs 55,999.00",
-						"description": "A tallboy dresser with five drawers, perfect for compact spaces.",
-						"image": "/images/furniture/storage/dressers/tallboy.png",
-						"dimensions": {
-							"width": "30 in",
-							"height": "50 in",
-							"depth": "18 in"
-						},
-						"material": "Wood",
-						"color": "Dark Walnut"
+						"material": "Glass",
+						"color": "Black"
 					}
 				]
 			},
 			{
-				"name": "Wardrobes",
+				"name": "Dining Room Sets",
 				"items": [
 					{
-						"name": "Sliding Door Wardrobe",
-						"price": "KShs 139,999.00",
-						"description": "A modern wardrobe with sliding doors and ample storage space.",
-						"image": "/images/furniture/storage/wardrobes/sliding-door.png",
+						"name": "6-Piece Dining Set",
+						"price": "KES 124,999.00",
+						"description": "A 6-piece dining set with upholstered chairs.",
+						"image": "/shop/dining/dining-room-sets/1.jpg",
 						"dimensions": {
 							"width": "72 in",
-							"height": "80 in",
-							"depth": "24 in"
+							"height": "30 in",
+							"depth": "40 in"
 						},
-						"material": "Wood and glass",
+						"material": "Wood",
 						"color": "Oak"
-					},
+					}
+				]
+			},
+			{
+				"name": "Kitchen Tables",
+				"items": [
 					{
-						"name": "Freestanding Wardrobe",
-						"price": "KShs 104,999.00",
-						"description": "A freestanding wardrobe with adjustable shelves and hanging rods.",
-						"image": "/images/furniture/storage/wardrobes/freestanding.png",
+						"name": "Compact Kitchen Table",
+						"price": "KES 29,999.00",
+						"description": "A small kitchen table perfect for compact spaces.",
+						"image": "/shop/dining/kitchen-tables/1.jpg",
 						"dimensions": {
-							"width": "60 in",
-							"height": "72 in",
-							"depth": "24 in"
+							"width": "48 in",
+							"height": "30 in",
+							"depth": "30 in"
 						},
 						"material": "Wood",
 						"color": "White"
@@ -213,16 +225,16 @@
 		"category": "Bedroom",
 		"name": "Bedroom",
 		"description": "Create your perfect bedroom with our furniture.",
-		"image": "/categories/bedroom.jpeg",
+		"image": "/shop/bedroom/bedroom.jpg",
 		"subcategories": [
 			{
 				"name": "Beds",
 				"items": [
 					{
 						"name": "Queen Platform Bed",
-						"price": "KShs 111,999.00",
+						"price": "KES 111,999.00",
 						"description": "A minimalist queen platform bed with a solid wood frame.",
-						"image": "/images/furniture/bedroom/beds/queen-platform.png",
+						"image": "/shop/bedroom/beds/1.jpg",
 						"dimensions": {
 							"width": "60 in",
 							"height": "14 in",
@@ -230,19 +242,6 @@
 						},
 						"material": "Wood",
 						"color": "Natural"
-					},
-					{
-						"name": "Upholstered King Bed",
-						"price": "KShs 167,999.00",
-						"description": "A luxurious upholstered king bed with a tufted headboard.",
-						"image": "/images/furniture/bedroom/beds/king-upholstered.png",
-						"dimensions": {
-							"width": "76 in",
-							"height": "54 in",
-							"depth": "80 in"
-						},
-						"material": "Fabric and wood",
-						"color": "Gray"
 					}
 				]
 			},
@@ -251,9 +250,9 @@
 				"items": [
 					{
 						"name": "Two-Drawer Nightstand",
-						"price": "KShs 27,999.00",
+						"price": "KES 27,999.00",
 						"description": "A compact nightstand with two drawers for bedside storage.",
-						"image": "/images/furniture/bedroom/nightstands/two-drawer.png",
+						"image": "/shop/bedroom/nightstands/1.jpg",
 						"dimensions": {
 							"width": "20 in",
 							"height": "24 in",
@@ -261,19 +260,148 @@
 						},
 						"material": "Wood",
 						"color": "Black"
-					},
+					}
+				]
+			}
+		]
+	},
+	{
+		"category": "Storage",
+		"name": "Storage",
+		"description": "Organize your space with our storage solutions.",
+		"image": "/shop/storage/storage.jpeg",
+		"subcategories": [
+			{
+				"name": "Dressers",
+				"items": [
 					{
-						"name": "Floating Nightstand",
-						"price": "KShs 20,999.00",
-						"description": "A modern floating nightstand with a sleek, minimalist design.",
-						"image": "/images/furniture/bedroom/nightstands/floating.png",
+						"name": "Six-Drawer Dresser",
+						"price": "KES 69,999.00",
+						"description": "A spacious six-drawer dresser with a classic design.",
+						"image": "/shop/storage/dressers/1.jpg",
 						"dimensions": {
-							"width": "16 in",
-							"height": "10 in",
-							"depth": "12 in"
+							"width": "60 in",
+							"height": "36 in",
+							"depth": "18 in"
 						},
 						"material": "Wood",
 						"color": "White"
+					}
+				]
+			},
+			{
+				"name": "Wardrobes",
+				"items": [
+					{
+						"name": "Sliding Door Wardrobe",
+						"price": "KES 139,999.00",
+						"description": "A modern wardrobe with sliding doors and ample storage space.",
+						"image": "/shop/storage/wardrobes/1.jpg",
+						"dimensions": {
+							"width": "72 in",
+							"height": "72 in",
+							"depth": "24 in"
+						},
+						"material": "Wood",
+						"color": "Walnut"
+					}
+				]
+			},
+			{
+				"name": "Shelving Units",
+				"items": [
+					{
+						"name": "5-Tier Bookcase",
+						"price": "KES 49,999.00",
+						"description": "A stylish 5-tier bookcase for books and decor.",
+						"image": "/shop/storage/shelving-units/1.jpg",
+						"dimensions": {
+							"width": "30 in",
+							"height": "60 in",
+							"depth": "12 in"
+						},
+						"material": "Wood",
+						"color": "Black"
+					}
+				]
+			}
+		]
+	},
+	{
+		"category": "Outdoor",
+		"name": "Outdoor",
+		"description": "Enhance your outdoor space with our furniture.",
+		"image": "/shop/outdoor/outdoor.jpeg",
+		"subcategories": [
+			{
+				"name": "Patio Sets",
+				"items": [
+					{
+						"name": "Rattan Patio Set",
+						"price": "KES 99,999.00",
+						"description": "A stylish rattan patio set with cushions.",
+						"image": "/shop/outdoor/patio-sets/1.jpg",
+						"dimensions": {
+							"width": "80 in",
+							"height": "28 in",
+							"depth": "60 in"
+						},
+						"material": "Rattan",
+						"color": "Brown"
+					}
+				]
+			},
+			{
+				"name": "Outdoor Chairs",
+				"items": [
+					{
+						"name": "Adirondack Chair",
+						"price": "KES 24,999.00",
+						"description": "A classic Adirondack chair perfect for relaxing.",
+						"image": "/shop/outdoor/outdoor-chairs/1.jpg",
+						"dimensions": {
+							"width": "30 in",
+							"height": "36 in",
+							"depth": "32 in"
+						},
+						"material": "Wood",
+						"color": "Green"
+					}
+				]
+			},
+			{
+				"name": "Garden Benches",
+				"items": [
+					{
+						"name": "Wooden Garden Bench",
+						"price": "KES 39,999.00",
+						"description": "A sturdy wooden garden bench for your backyard.",
+						"image": "/shop/outdoor/garden-benches/1.jpg",
+						"dimensions": {
+							"width": "60 in",
+							"height": "36 in",
+							"depth": "24 in"
+						},
+						"material": "Wood",
+						"color": "Natural"
+					}
+				]
+			},
+			{
+				"name": "Fire Pits",
+				"items": [
+					{
+						"name": "Portable Fire Pit",
+						"price": "KES 29,999.00",
+						"description": "A portable fire pit for outdoor gatherings.",
+						"image": "/shop/outdoor/fire-pits/1.jpg",
+						"dimensions": {
+							"width": "30 in",
+							"height": "12 in",
+							"depth": "30 in"
+						},
+						"material": "Steel",
+						"color": "Black"
 					}
 				]
 			}

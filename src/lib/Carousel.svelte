@@ -20,24 +20,24 @@
 	});
 </script>
 
-<div class="carousel relative overflow-hidden my-10 md:mt-60 mx-auto">
+<div class=" relative overflow-hidden  mx-auto items-center justify-center  md:mt-10 ">
 	<div
 		class="slides flex transition-transform duration-1000 ease-in-out"
 		style="transform: translateX(-{currentSlide * 100}%);"
 	>
 		{#each slides as slide (slide.title)}
-			<div class="slide flex-none w-full flex flex-col md:flex-row justify-between p-4">
-				<div class="text-left md:w-1/2 mx-auto p-4">
-					<h3 class="w-[10%] md:w-auto text-5xl md:text-6xl font-extrabold mb-10 text-mainGreen">
+			<div class="slide flex-none w-full flex flex-col md:flex-row p-4 items-center justify-center">
+				<div class="text-left md:w-1/2 mx-auto p-4 pt-6 md:pt-0">
+					<h3 class="w-[80%] md:w-auto text-4xl  md:text-6xl font-extrabold mb-10 text-mainGreen">
 						{slide.title}
 					</h3>
-					<p class=" text-lg w-3/4">{slide.description}</p>
+					<p class="test-sm md:text-lg md:w-3/4">{slide.description}</p>
 
 					<button
 						class="bg-mainGreen rounded-full text-gray-100 font-extrabold mt-12 px-8 py-4 hover:bg-gray-800"
 						on:click={() => goto('/shop')}
 					>
-						View Shop
+					 Shop Now
 					</button>
 				</div>
 				<div class="md:w-[30%] p-4">
