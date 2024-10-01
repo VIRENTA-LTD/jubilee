@@ -10,7 +10,7 @@
 				"items": [
 					{
 						"name": "Luxury Recliner",
-						"price": "KES 55,999.00",
+						"price": "5,999.00",
 						"description": "A comfortable luxury recliner with sleek leather finish.",
 						"image": "/shop/living/recliners/1.jpg",
 						"dimensions": {
@@ -28,7 +28,7 @@
 				"items": [
 					{
 						"name": "Classic Sofa",
-						"price": "KES 111,999.00",
+						"price": "111,999.00",
 						"description": "A three-seater classic sofa with plush cushions.",
 						"image": "/shop/living/sofas/1.jpg",
 						"dimensions": {
@@ -46,9 +46,9 @@
 				"items": [
 					{
 						"name": "Modern Ottoman",
-						"price": "KES 34,999.00",
+						"price": "34,999.00",
 						"description": "A modern ottoman with a soft top and sturdy wooden legs.",
-						"image": "/shop/living/ottomans/1.jpg",
+						"image": "/shop/living/ottomans/1.jpeg",
 						"dimensions": {
 							"width": "32 in",
 							"height": "18 in",
@@ -64,9 +64,9 @@
 				"items": [
 					{
 						"name": "Cozy Loveseat",
-						"price": "KES 79,999.00",
+						"price": "79,999.00",
 						"description": "A cozy loveseat perfect for two.",
-						"image": "/shop/living/loveseats/1.jpg",
+						"image": "/shop/living/loveseats/1.jpeg",
 						"dimensions": {
 							"width": "60 in",
 							"height": "36 in",
@@ -82,7 +82,7 @@
 				"items": [
 					{
 						"name": "Spacious Sectional Sofa",
-						"price": "KES 167,999.00",
+						"price": "167,999.00",
 						"description": "A large sectional sofa that provides ample seating.",
 						"image": "/shop/living/sectional-sofas/1.jpg",
 						"dimensions": {
@@ -100,7 +100,7 @@
 				"items": [
 					{
 						"name": "Elegant TV Stand",
-						"price": "KES 39,999.00",
+						"price": "39,999.00",
 						"description": "A stylish TV stand with storage cabinets.",
 						"image": "/shop/living/tv-stands/1.jpg",
 						"dimensions": {
@@ -126,7 +126,7 @@
 				"items": [
 					{
 						"name": "Round Coffee Table",
-						"price": "KES 27,999.00",
+						"price": "27,999.00",
 						"description": "A round coffee table with a marble top.",
 						"image": "/shop/tables/coffee-tables/1.jpg",
 						"dimensions": {
@@ -144,9 +144,9 @@
 				"items": [
 					{
 						"name": "Executive Office Desk",
-						"price": "KES 74,999.00",
+						"price": "74,999.00",
 						"description": "A large executive desk with a sleek wood finish.",
-						"image": "/shop/tables/office-desks/1.jpg",
+						"image": "/shop/tables/office-desks/1.jpeg",
 						"dimensions": {
 							"width": "72 in",
 							"height": "30 in",
@@ -170,7 +170,7 @@
 				"items": [
 					{
 						"name": "Contemporary Dining Table",
-						"price": "KES 83,999.00",
+						"price": "83,999.00",
 						"description": "A modern dining table with a tempered glass top.",
 						"image": "/shop/dining/dining-room-tables/1.jpg",
 						"dimensions": {
@@ -188,7 +188,7 @@
 				"items": [
 					{
 						"name": "6-Piece Dining Set",
-						"price": "KES 124,999.00",
+						"price": "124,999.00",
 						"description": "A 6-piece dining set with upholstered chairs.",
 						"image": "/shop/dining/dining-room-sets/1.jpg",
 						"dimensions": {
@@ -206,7 +206,7 @@
 				"items": [
 					{
 						"name": "Compact Kitchen Table",
-						"price": "KES 29,999.00",
+						"price": "29,999.00",
 						"description": "A small kitchen table perfect for compact spaces.",
 						"image": "/shop/dining/kitchen-tables/1.jpg",
 						"dimensions": {
@@ -232,7 +232,7 @@
 				"items": [
 					{
 						"name": "Queen Platform Bed",
-						"price": "KES 111,999.00",
+						"price": "111,999.00",
 						"description": "A minimalist queen platform bed with a solid wood frame.",
 						"image": "/shop/bedroom/beds/1.jpg",
 						"dimensions": {
@@ -250,9 +250,9 @@
 				"items": [
 					{
 						"name": "Two-Drawer Nightstand",
-						"price": "KES 27,999.00",
+						"price": "27,999.00",
 						"description": "A compact nightstand with two drawers for bedside storage.",
-						"image": "/shop/bedroom/nightstands/1.jpg",
+						"image": "/shop/bedroom/nightstands/1.jpeg",
 						"dimensions": {
 							"width": "20 in",
 							"height": "24 in",
@@ -276,9 +276,9 @@
 				"items": [
 					{
 						"name": "Six-Drawer Dresser",
-						"price": "KES 69,999.00",
+						"price": "69,999.00",
 						"description": "A spacious six-drawer dresser with a classic design.",
-						"image": "/shop/storage/dressers/1.jpg",
+						"image": "/shop/storage/dressers/1.jpeg",
 						"dimensions": {
 							"width": "60 in",
 							"height": "36 in",
@@ -294,9 +294,9 @@
 				"items": [
 					{
 						"name": "Sliding Door Wardrobe",
-						"price": "KES 139,999.00",
+						"price": "139,999.00",
 						"description": "A modern wardrobe with sliding doors and ample storage space.",
-						"image": "/shop/storage/wardrobes/1.jpg",
+						"image": "/shop/storage/wardrobes/1.jpeg",
 						"dimensions": {
 							"width": "72 in",
 							"height": "72 in",
@@ -314,7 +314,7 @@
 						"name": "5-Tier Bookcase",
 						"price": "KES 49,999.00",
 						"description": "A stylish 5-tier bookcase for books and decor.",
-						"image": "/shop/storage/shelving-units/1.jpg",
+						"image": "/shop/storage/shelving-units/1.jpeg",
 						"dimensions": {
 							"width": "30 in",
 							"height": "60 in",
@@ -338,9 +338,9 @@
 				"items": [
 					{
 						"name": "Rattan Patio Set",
-						"price": "KES 99,999.00",
+						"price": "99,999.00",
 						"description": "A stylish rattan patio set with cushions.",
-						"image": "/shop/outdoor/patio-sets/1.jpg",
+						"image": "/shop/outdoor/patio-sets/1.jpeg",
 						"dimensions": {
 							"width": "80 in",
 							"height": "28 in",
@@ -356,9 +356,9 @@
 				"items": [
 					{
 						"name": "Adirondack Chair",
-						"price": "KES 24,999.00",
+						"price": "24,999.00",
 						"description": "A classic Adirondack chair perfect for relaxing.",
-						"image": "/shop/outdoor/outdoor-chairs/1.jpg",
+						"image": "/shop/outdoor/outdoor-chairs/1.jpeg",
 						"dimensions": {
 							"width": "30 in",
 							"height": "36 in",
@@ -374,9 +374,9 @@
 				"items": [
 					{
 						"name": "Wooden Garden Bench",
-						"price": "KES 39,999.00",
+						"price": "39,999.00",
 						"description": "A sturdy wooden garden bench for your backyard.",
-						"image": "/shop/outdoor/garden-benches/1.jpg",
+						"image": "/shop/outdoor/garden-benches/1.jpeg",
 						"dimensions": {
 							"width": "60 in",
 							"height": "36 in",
@@ -384,24 +384,6 @@
 						},
 						"material": "Wood",
 						"color": "Natural"
-					}
-				]
-			},
-			{
-				"name": "Fire Pits",
-				"items": [
-					{
-						"name": "Portable Fire Pit",
-						"price": "KES 29,999.00",
-						"description": "A portable fire pit for outdoor gatherings.",
-						"image": "/shop/outdoor/fire-pits/1.jpg",
-						"dimensions": {
-							"width": "30 in",
-							"height": "12 in",
-							"depth": "30 in"
-						},
-						"material": "Steel",
-						"color": "Black"
 					}
 				]
 			}
