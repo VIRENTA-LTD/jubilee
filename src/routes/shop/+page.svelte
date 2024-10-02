@@ -98,12 +98,6 @@
 		}
 	}
 
-	function navigateToShop(category: string | number | boolean, subcategory: string | null = null) {
-		const path = subcategory
-			? `/shop?category=${encodeURIComponent(category)}&subcategory=${encodeURIComponent(subcategory)}`
-			: `/shop?category=${encodeURIComponent(category)}`;
-		window.location.href = path;
-	}
 
 	const toggleFilterModal = () => {
 		filterModalOpen = !filterModalOpen;

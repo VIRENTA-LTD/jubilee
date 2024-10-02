@@ -1,392 +1,400 @@
 [
-	{
-		"category": "Living Room",
-		"name": "Living Room",
-		"description": "Discover modern and traditional living room furniture.",
-		"image": "/shop/living/living.jpg",
-		"subcategories": [
-			{
-				"name": "Recliners",
-				"items": [
-					{
-						"name": "Luxury Recliner",
-						"price": "5,999.00",
-						"description": "A comfortable luxury recliner with sleek leather finish.",
-						"image": "/shop/living/recliners/1.jpg",
-						"dimensions": {
-							"width": "34 in",
-							"height": "40 in",
-							"depth": "36 in"
-						},
-						"material": "Leather",
-						"color": "Black"
-					}
-				]
-			},
-			{
-				"name": "Sofas",
-				"items": [
-					{
-						"name": "Classic Sofa",
-						"price": "111,999.00",
-						"description": "A three-seater classic sofa with plush cushions.",
-						"image": "/shop/living/sofas/1.jpg",
-						"dimensions": {
-							"width": "84 in",
-							"height": "34 in",
-							"depth": "36 in"
-						},
-						"material": "Fabric",
-						"color": "Navy Blue"
-					}
-				]
-			},
-			{
-				"name": "Ottomans",
-				"items": [
-					{
-						"name": "Modern Ottoman",
-						"price": "34,999.00",
-						"description": "A modern ottoman with a soft top and sturdy wooden legs.",
-						"image": "/shop/living/ottomans/1.jpeg",
-						"dimensions": {
-							"width": "32 in",
-							"height": "18 in",
-							"depth": "32 in"
-						},
-						"material": "Fabric",
-						"color": "Gray"
-					}
-				]
-			},
-			{
-				"name": "Loveseats",
-				"items": [
-					{
-						"name": "Cozy Loveseat",
-						"price": "79,999.00",
-						"description": "A cozy loveseat perfect for two.",
-						"image": "/shop/living/loveseats/1.jpeg",
-						"dimensions": {
-							"width": "60 in",
-							"height": "36 in",
-							"depth": "36 in"
-						},
-						"material": "Fabric",
-						"color": "Beige"
-					}
-				]
-			},
-			{
-				"name": "Sectional Sofas",
-				"items": [
-					{
-						"name": "Spacious Sectional Sofa",
-						"price": "167,999.00",
-						"description": "A large sectional sofa that provides ample seating.",
-						"image": "/shop/living/sectional-sofas/1.jpg",
-						"dimensions": {
-							"width": "120 in",
-							"height": "34 in",
-							"depth": "60 in"
-						},
-						"material": "Leather",
-						"color": "Cream"
-					}
-				]
-			},
-			{
-				"name": "TV Stands",
-				"items": [
-					{
-						"name": "Elegant TV Stand",
-						"price": "39,999.00",
-						"description": "A stylish TV stand with storage cabinets.",
-						"image": "/shop/living/tv-stands/1.jpg",
-						"dimensions": {
-							"width": "72 in",
-							"height": "24 in",
-							"depth": "18 in"
-						},
-						"material": "Wood",
-						"color": "Dark Walnut"
-					}
-				]
-			}
-		]
-	},
-	{
-		"category": "Tables",
-		"name": "Tables",
-		"description": "Browse our range of tables for every room.",
-		"image": "/shop/tables/office.jpeg",
-		"subcategories": [
-			{
-				"name": "Coffee Tables",
-				"items": [
-					{
-						"name": "Round Coffee Table",
-						"price": "27,999.00",
-						"description": "A round coffee table with a marble top.",
-						"image": "/shop/tables/coffee-tables/1.jpg",
-						"dimensions": {
-							"width": "36 in",
-							"height": "18 in",
-							"depth": "36 in"
-						},
-						"material": "Marble",
-						"color": "White"
-					}
-				]
-			},
-			{
-				"name": "Office Desks",
-				"items": [
-					{
-						"name": "Executive Office Desk",
-						"price": "74,999.00",
-						"description": "A large executive desk with a sleek wood finish.",
-						"image": "/shop/tables/office-desks/1.jpeg",
-						"dimensions": {
-							"width": "72 in",
-							"height": "30 in",
-							"depth": "36 in"
-						},
-						"material": "Wood",
-						"color": "Mahogany"
-					}
-				]
-			}
-		]
-	},
-	{
-		"category": "Dining Sets",
-		"name": "Dining Sets",
-		"description": "Complete your dining room with our sets.",
-		"image": "/shop/dining/dining.jpg",
-		"subcategories": [
-			{
-				"name": "Dining Room Tables",
-				"items": [
-					{
-						"name": "Contemporary Dining Table",
-						"price": "83,999.00",
-						"description": "A modern dining table with a tempered glass top.",
-						"image": "/shop/dining/dining-room-tables/1.jpg",
-						"dimensions": {
-							"width": "72 in",
-							"height": "30 in",
-							"depth": "36 in"
-						},
-						"material": "Glass",
-						"color": "Black"
-					}
-				]
-			},
-			{
-				"name": "Dining Room Sets",
-				"items": [
-					{
-						"name": "6-Piece Dining Set",
-						"price": "124,999.00",
-						"description": "A 6-piece dining set with upholstered chairs.",
-						"image": "/shop/dining/dining-room-sets/1.jpg",
-						"dimensions": {
-							"width": "72 in",
-							"height": "30 in",
-							"depth": "40 in"
-						},
-						"material": "Wood",
-						"color": "Oak"
-					}
-				]
-			},
-			{
-				"name": "Kitchen Tables",
-				"items": [
-					{
-						"name": "Compact Kitchen Table",
-						"price": "29,999.00",
-						"description": "A small kitchen table perfect for compact spaces.",
-						"image": "/shop/dining/kitchen-tables/1.jpg",
-						"dimensions": {
-							"width": "48 in",
-							"height": "30 in",
-							"depth": "30 in"
-						},
-						"material": "Wood",
-						"color": "White"
-					}
-				]
-			}
-		]
-	},
-	{
-		"category": "Bedroom",
-		"name": "Bedroom",
-		"description": "Create your perfect bedroom with our furniture.",
-		"image": "/shop/bedroom/bedroom.jpg",
-		"subcategories": [
-			{
-				"name": "Beds",
-				"items": [
-					{
-						"name": "Queen Platform Bed",
-						"price": "111,999.00",
-						"description": "A minimalist queen platform bed with a solid wood frame.",
-						"image": "/shop/bedroom/beds/1.jpg",
-						"dimensions": {
-							"width": "60 in",
-							"height": "14 in",
-							"depth": "80 in"
-						},
-						"material": "Wood",
-						"color": "Natural"
-					}
-				]
-			},
-			{
-				"name": "Nightstands",
-				"items": [
-					{
-						"name": "Two-Drawer Nightstand",
-						"price": "27,999.00",
-						"description": "A compact nightstand with two drawers for bedside storage.",
-						"image": "/shop/bedroom/nightstands/1.jpeg",
-						"dimensions": {
-							"width": "20 in",
-							"height": "24 in",
-							"depth": "16 in"
-						},
-						"material": "Wood",
-						"color": "Black"
-					}
-				]
-			}
-		]
-	},
-	{
-		"category": "Storage",
-		"name": "Storage",
-		"description": "Organize your space with our storage solutions.",
-		"image": "/shop/storage/storage.jpeg",
-		"subcategories": [
-			{
-				"name": "Dressers",
-				"items": [
-					{
-						"name": "Six-Drawer Dresser",
-						"price": "69,999.00",
-						"description": "A spacious six-drawer dresser with a classic design.",
-						"image": "/shop/storage/dressers/1.jpeg",
-						"dimensions": {
-							"width": "60 in",
-							"height": "36 in",
-							"depth": "18 in"
-						},
-						"material": "Wood",
-						"color": "White"
-					}
-				]
-			},
-			{
-				"name": "Wardrobes",
-				"items": [
-					{
-						"name": "Sliding Door Wardrobe",
-						"price": "139,999.00",
-						"description": "A modern wardrobe with sliding doors and ample storage space.",
-						"image": "/shop/storage/wardrobes/1.jpeg",
-						"dimensions": {
-							"width": "72 in",
-							"height": "72 in",
-							"depth": "24 in"
-						},
-						"material": "Wood",
-						"color": "Walnut"
-					}
-				]
-			},
-			{
-				"name": "Shelving Units",
-				"items": [
-					{
-						"name": "5-Tier Bookcase",
-						"price": "KES 49,999.00",
-						"description": "A stylish 5-tier bookcase for books and decor.",
-						"image": "/shop/storage/shelving-units/1.jpeg",
-						"dimensions": {
-							"width": "30 in",
-							"height": "60 in",
-							"depth": "12 in"
-						},
-						"material": "Wood",
-						"color": "Black"
-					}
-				]
-			}
-		]
-	},
-	{
-		"category": "Outdoor",
-		"name": "Outdoor",
-		"description": "Enhance your outdoor space with our furniture.",
-		"image": "/shop/outdoor/outdoor.jpeg",
-		"subcategories": [
-			{
-				"name": "Patio Sets",
-				"items": [
-					{
-						"name": "Rattan Patio Set",
-						"price": "99,999.00",
-						"description": "A stylish rattan patio set with cushions.",
-						"image": "/shop/outdoor/patio-sets/1.jpeg",
-						"dimensions": {
-							"width": "80 in",
-							"height": "28 in",
-							"depth": "60 in"
-						},
-						"material": "Rattan",
-						"color": "Brown"
-					}
-				]
-			},
-			{
-				"name": "Outdoor Chairs",
-				"items": [
-					{
-						"name": "Adirondack Chair",
-						"price": "24,999.00",
-						"description": "A classic Adirondack chair perfect for relaxing.",
-						"image": "/shop/outdoor/outdoor-chairs/1.jpeg",
-						"dimensions": {
-							"width": "30 in",
-							"height": "36 in",
-							"depth": "32 in"
-						},
-						"material": "Wood",
-						"color": "Green"
-					}
-				]
-			},
-			{
-				"name": "Garden Benches",
-				"items": [
-					{
-						"name": "Wooden Garden Bench",
-						"price": "39,999.00",
-						"description": "A sturdy wooden garden bench for your backyard.",
-						"image": "/shop/outdoor/garden-benches/1.jpeg",
-						"dimensions": {
-							"width": "60 in",
-							"height": "36 in",
-							"depth": "24 in"
-						},
-						"material": "Wood",
-						"color": "Natural"
-					}
-				]
-			}
-		]
-	}
+  {
+    "category": "Living Room",
+    "name": "Living Room",
+    "description": "Discover modern and traditional living room furniture.",
+    "image": "/shop/living/living.jpg",
+    "subcategories": [
+      {
+        "name": "Recliners",
+        "items": [
+          {
+            "name": "Luxury Recliner",
+            "price": "5,999.00",
+            "description": "A comfortable luxury recliner with sleek leather finish.",
+            "image": "/shop/living/recliners/1.jpg",
+            "dimensions": {
+              "width": "34 in",
+              "height": "40 in",
+              "depth": "36 in"
+            },
+            "material": "Leather",
+            "color": "Black"
+          }
+        ]
+      },
+      {
+        "name": "Sofas",
+        "items": [
+          {
+            "name": "Classic Sofa",
+            "price": "111,999.00",
+            "description": "A three-seater classic sofa with plush cushions.",
+            "image": "/shop/living/sofas/1.jpg",
+            "dimensions": {
+              "width": "84 in",
+              "height": "34 in",
+              "depth": "36 in"
+            },
+            "material": "Fabric",
+            "color": "Navy Blue"
+          }
+        ]
+      },
+      {
+        "name": "Ottomans",
+        "items": [
+          {
+            "name": "Modern Ottoman",
+            "price": "34,999.00",
+            "description": "A modern ottoman with a soft top and sturdy wooden legs.",
+            "image": "/shop/living/ottomans/1.jpeg",
+            "dimensions": {
+              "width": "32 in",
+              "height": "18 in",
+              "depth": "32 in"
+            },
+            "material": "Fabric",
+            "color": "Gray"
+          }
+        ]
+      },
+      {
+        "name": "Loveseats",
+        "items": [
+          {
+            "name": "Cozy Loveseat",
+            "price": "79,999.00",
+            "description": "A cozy loveseat perfect for two.",
+            "image": "/shop/living/loveseats/1.jpeg",
+            "dimensions": {
+              "width": "60 in",
+              "height": "36 in",
+              "depth": "36 in"
+            },
+            "material": "Fabric",
+            "color": "Beige"
+          }
+        ]
+      },
+      {
+        "name": "Sectional Sofas",
+        "items": [
+          {
+            "name": "Spacious Sectional Sofa",
+            "price": "167,999.00",
+            "description": "A large sectional sofa that provides ample seating.",
+            "image": "/shop/living/sectional-sofas/1.jpg",
+            "dimensions": {
+              "width": "120 in",
+              "height": "34 in",
+              "depth": "60 in"
+            },
+            "material": "Leather",
+            "color": "Cream"
+          }
+        ]
+      },
+      {
+        "name": "TV Stands",
+        "items": [
+          {
+            "name": "Elegant TV Stand",
+            "price": "39,999.00",
+            "description": "A stylish TV stand with storage cabinets.",
+            "image": "/shop/living/tv-stands/1.jpg",
+            "dimensions": {
+              "width": "72 in",
+              "height": "24 in",
+              "depth": "18 in"
+            },
+            "material": "Wood",
+            "color": "Dark Walnut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Tables",
+    "name": "Tables",
+    "description": "Browse our range of tables for every room.",
+    "image": "/shop/tables/office.jpeg",
+    "subcategories": [
+      {
+        "name": "Coffee Tables",
+        "items": [
+          {
+            "name": "Round Coffee Table",
+            "price": "27,999.00",
+            "description": "A round coffee table with a marble top.",
+            "image": "/shop/tables/coffee-tables/1.jpg",
+            "dimensions": {
+              "width": "36 in",
+              "height": "18 in",
+              "depth": "36 in"
+            },
+            "material": "Marble",
+            "color": "White"
+          },
+          {
+            "name": "Square cofee table",
+            "price": 12000,
+            "description": "A masterpiece table",
+            "dimensions": {},
+            "material": "Mahogany",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "name": "Office Desks",
+        "items": [
+          {
+            "name": "Executive Office Desk",
+            "price": "74,999.00",
+            "description": "A large executive desk with a sleek wood finish.",
+            "image": "/shop/tables/office-desks/1.jpeg",
+            "dimensions": {
+              "width": "72 in",
+              "height": "30 in",
+              "depth": "36 in"
+            },
+            "material": "Wood",
+            "color": "Mahogany"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Dining Sets",
+    "name": "Dining Sets",
+    "description": "Complete your dining room with our sets.",
+    "image": "/shop/dining/dining.jpg",
+    "subcategories": [
+      {
+        "name": "Dining Room Tables",
+        "items": [
+          {
+            "name": "Contemporary Dining Table",
+            "price": "83,999.00",
+            "description": "A modern dining table with a tempered glass top.",
+            "image": "/shop/dining/dining-room-tables/1.jpg",
+            "dimensions": {
+              "width": "72 in",
+              "height": "30 in",
+              "depth": "36 in"
+            },
+            "material": "Glass",
+            "color": "Black"
+          }
+        ]
+      },
+      {
+        "name": "Dining Room Sets",
+        "items": [
+          {
+            "name": "6-Piece Dining Set",
+            "price": "124,999.00",
+            "description": "A 6-piece dining set with upholstered chairs.",
+            "image": "/shop/dining/dining-room-sets/1.jpg",
+            "dimensions": {
+              "width": "72 in",
+              "height": "30 in",
+              "depth": "40 in"
+            },
+            "material": "Wood",
+            "color": "Oak"
+          }
+        ]
+      },
+      {
+        "name": "Kitchen Tables",
+        "items": [
+          {
+            "name": "Compact Kitchen Table",
+            "price": "29,999.00",
+            "description": "A small kitchen table perfect for compact spaces.",
+            "image": "/shop/dining/kitchen-tables/1.jpg",
+            "dimensions": {
+              "width": "48 in",
+              "height": "30 in",
+              "depth": "30 in"
+            },
+            "material": "Wood",
+            "color": "White"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Bedroom",
+    "name": "Bedroom",
+    "description": "Create your perfect bedroom with our furniture.",
+    "image": "/shop/bedroom/bedroom.jpg",
+    "subcategories": [
+      {
+        "name": "Beds",
+        "items": [
+          {
+            "name": "Queen Platform Bed",
+            "price": "111,999.00",
+            "description": "A minimalist queen platform bed with a solid wood frame.",
+            "image": "/shop/bedroom/beds/1.jpg",
+            "dimensions": {
+              "width": "60 in",
+              "height": "14 in",
+              "depth": "80 in"
+            },
+            "material": "Wood",
+            "color": "Natural"
+          }
+        ]
+      },
+      {
+        "name": "Nightstands",
+        "items": [
+          {
+            "name": "Two-Drawer Nightstand",
+            "price": "27,999.00",
+            "description": "A compact nightstand with two drawers for bedside storage.",
+            "image": "/shop/bedroom/nightstands/1.jpeg",
+            "dimensions": {
+              "width": "20 in",
+              "height": "24 in",
+              "depth": "16 in"
+            },
+            "material": "Wood",
+            "color": "Black"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Storage",
+    "name": "Storage",
+    "description": "Organize your space with our storage solutions.",
+    "image": "/shop/storage/storage.jpeg",
+    "subcategories": [
+      {
+        "name": "Dressers",
+        "items": [
+          {
+            "name": "Six-Drawer Dresser",
+            "price": "69,999.00",
+            "description": "A spacious six-drawer dresser with a classic design.",
+            "image": "/shop/storage/dressers/1.jpeg",
+            "dimensions": {
+              "width": "60 in",
+              "height": "36 in",
+              "depth": "18 in"
+            },
+            "material": "Wood",
+            "color": "White"
+          }
+        ]
+      },
+      {
+        "name": "Wardrobes",
+        "items": [
+          {
+            "name": "Sliding Door Wardrobe",
+            "price": "139,999.00",
+            "description": "A modern wardrobe with sliding doors and ample storage space.",
+            "image": "/shop/storage/wardrobes/1.jpeg",
+            "dimensions": {
+              "width": "72 in",
+              "height": "72 in",
+              "depth": "24 in"
+            },
+            "material": "Wood",
+            "color": "Walnut"
+          }
+        ]
+      },
+      {
+        "name": "Shelving Units",
+        "items": [
+          {
+            "name": "5-Tier Bookcase",
+            "price": "KES 49,999.00",
+            "description": "A stylish 5-tier bookcase for books and decor.",
+            "image": "/shop/storage/shelving-units/1.jpeg",
+            "dimensions": {
+              "width": "30 in",
+              "height": "60 in",
+              "depth": "12 in"
+            },
+            "material": "Wood",
+            "color": "Black"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Outdoor",
+    "name": "Outdoor",
+    "description": "Enhance your outdoor space with our furniture.",
+    "image": "/shop/outdoor/outdoor.jpeg",
+    "subcategories": [
+      {
+        "name": "Patio Sets",
+        "items": [
+          {
+            "name": "Rattan Patio Set",
+            "price": "99,999.00",
+            "description": "A stylish rattan patio set with cushions.",
+            "image": "/shop/outdoor/patio-sets/1.jpeg",
+            "dimensions": {
+              "width": "80 in",
+              "height": "28 in",
+              "depth": "60 in"
+            },
+            "material": "Rattan",
+            "color": "Brown"
+          }
+        ]
+      },
+      {
+        "name": "Outdoor Chairs",
+        "items": [
+          {
+            "name": "Adirondack Chair",
+            "price": "24,999.00",
+            "description": "A classic Adirondack chair perfect for relaxing.",
+            "image": "/shop/outdoor/outdoor-chairs/1.jpeg",
+            "dimensions": {
+              "width": "30 in",
+              "height": "36 in",
+              "depth": "32 in"
+            },
+            "material": "Wood",
+            "color": "Green"
+          }
+        ]
+      },
+      {
+        "name": "Garden Benches",
+        "items": [
+          {
+            "name": "Wooden Garden Bench",
+            "price": "39,999.00",
+            "description": "A sturdy wooden garden bench for your backyard.",
+            "image": "/shop/outdoor/garden-benches/1.jpeg",
+            "dimensions": {
+              "width": "60 in",
+              "height": "36 in",
+              "depth": "24 in"
+            },
+            "material": "Wood",
+            "color": "Natural"
+          }
+        ]
+      }
+    ]
+  }
 ]
